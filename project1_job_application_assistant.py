@@ -1,13 +1,4 @@
-"""
-Project 1: AI Job Application Assistant
-========================================
-Analyzes job descriptions and helps candidates tailor their applications.
 
-Features:
-- Job Description Analyzer: Extract structured job details
-- Resume Improvement Suggestions: Generate tailored improvements
-- Cover Letter Generator: Create professional cover letters
-"""
 
 from typing import List
 from pydantic import BaseModel, Field
@@ -361,3 +352,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
